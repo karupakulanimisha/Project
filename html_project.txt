@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html><meta charset="UTF-8">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.mid{
+float: right;
+}
+.p{
+text-size: 600px;
+}
+.img{
+float: center;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.bergerpaints.com/blog/wp-content/uploads/2021/04/Green-wall--1280x720.png");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+} 
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+h2 {
+text-align:center;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.div1 {
+  border: 1px solid gray;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+
+p1 {
+  float: center;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h4 style="font-size:50px">Dream your interior</h4>
+    <p>Get your Dream house interiors done affordable</p>
+    <button>Book your consultation</button>
+  </div>
+</div>
+
+<!-- Navbar (Sits on top) -->
+<div class="w3-top w3-bar w3-white w3-wide w3-padding w3-card">
+<a href="#home" class="w3-bar-item w3-button"><b>Modest</b> Gazellig</a>
+
+<!-- Float links to the right. Hide them on small screens -->
+<div class="w3-right w3-hide-small">
+<a href="#projects" class="w3-bar-item w3-button">Home</a>
+<a href="#about" class="w3-bar-item w3-button">About</a>
+<a href="#contact" class="w3-bar-item w3-button">Contact</a>
+<a href="#" class="w3-bar-item w3-button">Gallery</a>
+</div>
+
+<!-- Page Start -->
+<div id="home" class="w3-content" style="max-width:1564px">
+
+<div class="w3-display-middle w3-margin-top w3-center">
+<h1 class="w3-xxlarge w3-text-white w3-wide">
+</h1>
+</div>
+</div>
+
+<!-- Page End -->
+</div>
+<br>
+<br>
+<h2>About Gazellig</h2>
+<br>
+<div class="mid"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/41e62379456257.5cc343016f2d4.jpg" height="250" weight="300">
+</div>
+Gazellig is a full-fledged small budget interior design and execution 
+company with the best interior designers under the skandhanshi group.Interior design does not have to be pricey all of the time. There are numerous ways to give your residence that seductive and magnificent appeal without spending a fortune. Only a little effort, a few supplies, patience, and creative thinking are what’s required to give your house that budget-friendly makeover you have always wanted. Have you ever been tired and perhaps a little ashamed of your old furniture, tattered walls, décor items, or other household interior fittings? Everyone has felt this way at one point or another, yet budgetary restraints prevent us from making immediate adjustments.The companys customer-centricity,designs and post-sales are at the heart of its steady growth in popularity and demand.</p>
+<button class="button">Know more</button>
+<br>
+<br>
+<br>
+<br>
+<div class="mid"><img src=https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img/https://smallbudgetbigmakeover.com/wp-content/uploads/2019/09/floorplan.png height="250" weight="250">
+</div>
+<br>
+<p style="border: 1px solid black"><h2>Makeover process</h2>
+<ol> <li>choose your interest</li><li>Site visit and Discuss with our creator</li><li>Finalise your work details</li><li>Finalise your Budget</li>
+</ol></p>
+<div>
+<br>
+<br>
+<br>
+<h2>Book Your Consultation Today!</h2>
+  <form action="/action_page.php">
+    <label for="fname">Enter your Name</label>
+    <input type="text" id="fname" name="firstname">
+<br>
+    <label for="lname">Enter your email</label>
+    <input type="text" id="lname" name="lastname" >
+<br>
+    <label for="country">Country</label>
+    <input type="text" id="country" name="country">
+    <br>
+     <label for="mobile">Enter your mobile number</label>
+    <input type="text" id="mobile" name="mobile number"><br>
+ <label for="budget">Budget</label>
+ <input type="text" id="budget" name="Budget"><br>
+    
+     <label for="country">Enter your location</label>
+     <input type="text" id="city" name="live location"><br>
+  
+   <button class="button">Submit</button>
+  </form>
+</div>
+<br>
+<br>
+<h2>Why choose us
+<br>
+<br>
+<div class="img"><img src="https://interius.in/wp-content/uploads/2022/08/816x400.jpg">
+</h2></div>
+<br>
+<br>
+<ul>
+<li>Seamless Custom & Modular Design Solutions</li>
+<li>Interior Solutions Of Every Size</li>
+<li>Reliable & Regular Post-sales Support</li>
+<li>What You Chose Is What You Get</li>
+<li>On-time Delivery & Installation</li></ul>
+<button class="button">Book free Consultation-></button>
+<br>
+<br>
+<h2>
+<div class="gallery">
+  <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlJWQqXNzVMFi4TTUgwUE4W0W-utRXyAVTF6D_BwxxTwXoqxBpdMAH_9-VuQld8ZNFMuY&usqp=CAU">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlJWQqXNzVMFi4TTUgwUE4W0W-utRXyAVTF6D_BwxxTwXoqxBpdMAH_9-VuQld8ZNFMuY&usqp=CAU" alt="Cinque Terre" width="1000" height="400">
+  </a>
+  <div class="desc"><p>Make memory with your walls</p></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReueR7ucGMAgSJODHPUblopZb0h8e69J6CVw&usqp=CAU">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReueR7ucGMAgSJODHPUblopZb0h8e69J6CVw&usqp=CAU" alt="Northern Lights" width="1000" height="400">
+  </a>
+  <div class="desc"><p>Our team brings you change!</p></div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdV_7Nd11rT6V08d_nLo70pkPk13w0bpvOjw&usqp=CAU">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdV_7Nd11rT6V08d_nLo70pkPk13w0bpvOjw&usqp=CAU"
+  </a>
+  <div class="desc"><p>Design your party space</p></div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReueR7ucGMAgSJODHPUblopZb0h8e69J6CVw&usqp=CAU">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt48I5H3mz6YAfbCBNjyzpQuhIGk1FMSo1Rg&usqp=CAU" alt="Northern Lights" width="1000" height="400">
+  </a>
+  <div class="desc"><p>Simplicity Garden Lovers</p></div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5KL7rIhdHMEV5ZOPjMf6LivAZO7SoeVEDXg&usqp=CAU">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5KL7rIhdHMEV5ZOPjMf6LivAZO7SoeVEDXg&usqp=CAU" alt="Mountains" width="1000" height="400">
+  </a>
+  <div class="desc"><p>Creativity change your mood</p></div>
+                    <br>
+                    <br>
+                    </div>
+<br>
+<br>
+<hr>
+<h2>Interiors As Easy As 1-2-3-4</h2>
+<div class="elementor-widget-container">
+															<img decoding="async" width="592" height="125" src="https://interius.in/wp-content/uploads/2022/07/Group-329.png" class="attachment-full size-full wp-image-4764" alt="" loading="lazy" srcset="https://interius.in/wp-content/uploads/2022/07/Group-329.png 592w, https://interius.in/wp-content/uploads/2022/07/Group-329-300x63.png 300w" sizes="(max-width: 592px) 100vw, 592px">		
+                                                           
+  <br>   
+  <br>
+  <br>
+  <button class="button">Talk to our Experts</button>
+                                                            </div>
+<div1>
+<hr>
+  <h1>Start Your Journey</h1>
+  <p1>Quick Links
+ <br> <li>About</li>
+  <li>Contact</li>
+  <li>Gallery</li>
+  <li>Blogs</li>
+  </p1>
+  <p1>Support Us
+  <br>
+  <li>+91 456789</li>
+  <li>gazellig76@gaze.in</li>
+  </p1>
+  <br>
+  <p2>Follow Us On ..
+  <p3><a href="www.facebook.com">Facebook</p3>
+  <p3><a href="www.instaram.com">Instagram</p3>
+  <p3><a href="www.linkedin.com">Linkedin</p3>
+  <p3><a href="www.youtube.com">Youtube</p3>
+  </p2>
+  </div1>
+
+</body>
+</html>
